@@ -1,0 +1,134 @@
+page-editprogram {
+    .edit_program{
+        margin: 0;
+        padding:0;
+    }
+
+    .edit_program table{
+        width:100%;
+    }
+    .edit_program table tr:first-child{
+        border-bottom: 2px solid #8a8a8a;
+    }
+    .edit_program table tr th{
+        padding: 20px 50px;
+        text-align: left;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: normal;
+        font-family: 'Bahnschrift';
+    }
+    .edit_program table tr td{
+        padding: 60px 50px 0;
+    }
+
+    .select_section{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width:83%;
+    }
+
+    .select_section ion-select{
+        border: 1px solid #8a8a8a;
+        width:100%;
+        max-width: 100%;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        height: 50px;
+
+    }
+   .select_section .select-icon{
+        background: url('../../assets/imgs/select.png') no-repeat center center;
+        width: 27px;
+        height: 17px;
+        position: absolute;
+        right: 17px;
+        top: 19px;
+    }
+    .select_section .select-icon .select-icon-inner{
+        display: none;
+    }
+    .select-text{
+        font-size: 24px;
+        color: #ffffff;
+        font-family: 'Bahnschrift';
+        padding-right: 40px;
+
+    }   
+    .addnotes{
+        width:170px;
+        height: 50px;
+        border: 1px solid #8a8a8a;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        background: url('../../assets/imgs/addnotes.png') no-repeat center center;
+    }
+    .buttons_sec{
+        margin-top: 160px;
+        text-align: center;
+    } 
+    .buttons_sec button{
+        min-width:260px;
+        background: #d7a301;
+        padding: 20px;
+        font-size: 28px;
+        color: #ffffff;
+        font-family: 'Bahnschrift';
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        margin: 0 25px;
+    }
+
+    @media(max-width:667px){
+        .edit_program table tr th{
+            font-size: 16px;
+            padding: 8px 14px;
+        }
+        .edit_program table tr td{
+            padding: 15px 14px 0;
+        }
+        .edit_program table tr td:last-child{
+            width:35%;
+        }
+        .addnotes{
+            width:50px;
+            height: 35px;
+            background-size: 35px;
+        }
+        .select_section{
+            width:100%;
+        }
+        .select_section ion-select{
+            height: 35px;
+            font-size: 14px;
+            padding-bottom: 0;
+            padding-top: 9px;
+        }
+        .select_section .select-icon {
+            right: 3px;
+            top: 9px;
+            background-size: 15px;
+    }
+    .select-text{
+        font-size: 14px;
+        color: #ffffff;
+        font-family: 'Bahnschrift';
+        padding-right: 30px;
+
+    } 
+    .buttons_sec{
+        margin-top: 50px;
+    }
+    .buttons_sec button {
+        min-width: 134px;
+        padding: 11px;
+        font-size: 18px;
+        color: #ffffff;
+        margin: 0 4px;
+    }
+}
+}

@@ -1,0 +1,171 @@
+page-bodyresult {
+    .body_result_page{
+        margin: 0;
+        padding: 0;
+    }
+    .progress_img{
+        padding: 25px 60px 50px 60px;
+    }
+    .progress_img h2{
+        font-size: 30px;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        font-family: 'Bahnschrift';
+        font-weight: normal;
+    }
+    .slider_section{
+        padding: 0 30px;
+        margin-top: 30px;
+        position: relative;
+    }
+    .slider_arrow_left{
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 20px;
+        transform: translate(0, -50%);
+        -moz-transform: translate(0, -50%);
+        -webkit-transform: translate(0, -50%);
+    }
+    .slider_arrow_right{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 20px;
+        transform: translate(0, -50%);
+        -moz-transform: translate(0, -50%);
+        -webkit-transform: translate(0, -50%);
+    }
+    .slide_content{
+        float: left;
+        width: 100%;
+    }
+    .slide_box{
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        float: left;
+        width: 27.3%;
+        margin: 0 3%;
+        overflow: hidden;
+    }
+    .slide_box img{
+        width: 100%;
+    }
+    
+    .graph_section{
+        box-shadow: 1px 2px 45px #0f1c42;
+        float: left;
+        width: 100%;
+        border-top: 2px solid #d7a301;
+    }
+    .graph_section img{
+        width: 100%;
+        float: left;
+    }
+
+    .in_body_result{
+        padding: 50px 60px;
+        float: left;
+        width: 100%;
+    }
+    .in_body_result h2{
+        font-size: 32px;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        font-family: 'Bahnschrift';
+        font-weight: normal;
+    }
+.table_section{
+    margin-top: 20px;
+}
+    .table_section table{
+        width: 100%;
+    }
+    .table_section table tr th{
+        font-size: 26px;
+        color: #fff;
+        font-family: 'Bahnschrift';
+        font-weight: normal;
+        text-align: left;
+        padding: 10px 0;
+        width: 15%;
+        text-align: right;
+    }
+    .table_section table tr td{
+        font-size: 22px;
+        color: #fff;
+        font-family: 'Bahnschrift';
+        font-weight: normal;
+        text-align: left;
+        padding: 10px 0;
+        width: 15%;
+        text-align: right;
+    }
+    .table_section table tr:first-child{
+        border-bottom: 2px solid #8c8e93;
+        
+    }
+    .table_section table tr td:first-child{
+        width: 40%;
+        text-align: left;
+    }
+    .table_section table tr th:first-child{
+        width: 40%;
+        text-align: left;
+    }
+    .table_section table tr:nth-child(2) td{
+        padding-top: 30px;
+    }
+
+
+    @media(max-width:667px){
+        .progress_img{
+            padding: 25px 16px;
+        }
+        .progress_img h2{
+            font-size: 18px;
+        }
+        .slider_arrow_left{
+            width: 12px;
+        }
+        .slider_arrow_right{
+            width: 12px;
+        }
+        .slider_section{
+            padding: 0 15px;
+            margin-top: 15px;
+
+        }
+        .in_body_result{
+            padding: 25px 16px;
+        }
+        .in_body_result h2{
+            font-size: 20px;
+        }
+        .table_section table tr th{
+            font-size: 16px;
+            width: 10%;
+        }
+        .table_section table tr td{
+            font-size: 14px;
+            width: 10%;
+        }
+        .table_section table tr td:first-child{
+            width: 60%;
+        }
+     
+        .table_section table tr th:first-child{
+            width: 60%;
+        }
+        .table_section table tr:nth-child(2) td{
+            padding-top: 20px;
+        }
+      
+
+    }
+    
+
+}

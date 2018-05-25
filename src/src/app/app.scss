@@ -1,0 +1,105 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+
+  @font-face {
+    font-family: 'Bahnschrift';
+    src: url('../assets/font/Bahnschrift.woff2') format('woff2'),
+        url('../assets/font/Bahnschrift.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.toolbar-background{
+    background: #181c27;
+    border-color:#181c27!important; 
+}
+.header .toolbar{
+    min-height: 118px;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.bar-button-menutoggle{
+    background: url(../assets/imgs/menu.png) no-repeat left center;
+}
+.bar-button-menutoggle .button-inner ion-icon{
+    font-size: 0;
+}
+.header .toolbar-title{
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    font-weight: normal;
+    width:auto;
+}
+.bg{
+    background: url(../assets/imgs/bg.jpg) no-repeat left top;
+    background-size: cover;
+   
+}
+.border_bottom{
+    border-bottom: 2px solid #8a8a8a;
+}
+.header_logo{
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+}
+.header_logo img{
+    float: left;
+}
+
+@media(max-width:667px){
+    .header .toolbar{
+        padding-left: 10px;
+        padding-right: 10px;
+        min-height: 50px;
+    }
+    .logo{
+        width: 110px;
+    }
+    .bar-button-menutoggle{
+        background-size: 22px;
+    }
+    .header .toolbar-title{
+        font-size: 20px;
+    }
+    .header_logo{
+        width:35px;
+        right: 16px;
+    }
+    
+}
