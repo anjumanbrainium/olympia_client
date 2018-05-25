@@ -1,0 +1,8 @@
+{
+  "name": "olympia_client",
+  "app_id": "0307926e",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
