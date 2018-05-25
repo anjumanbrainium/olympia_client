@@ -1,0 +1,37 @@
+page-trainerviewclient {
+    .trainer_dash{
+        margin: 0;
+        padding: 0;
+    }
+    
+      .client_list_section{
+          margin: 0;
+          padding: 0;
+          
+      }
+      .client_list_box{
+        padding: 28px 55px;
+        border-bottom: 2px solid #d7a301;
+      }
+      .client_list{
+          font-size: 32px;
+          color: #ffffff;
+          font-weight: normal;
+          font-family: 'Bahnschrift';
+          background: url(/assets/imgs/right_arrow.png) no-repeat right center;
+
+      }
+
+
+      @media(max-width:667px){
+      
+      .client_list_box{
+          padding: 12px 20px;
+      }
+      .client_list{
+          font-size: 18px;
+          background-size: 12px;
+      }
+    }
+
+}

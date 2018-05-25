@@ -1,0 +1,94 @@
+page-trainerdashboard {
+    .trainer_dash{
+        margin: 0;
+        padding: 0;
+    }
+    .search_section{
+        padding: 40px 75px;
+    }
+    .search_box{
+        position: relative;
+    }
+    .search_box ion-input{
+        margin: 0;
+        padding: 0;
+    }
+    .search_box ion-input .text-input{
+        height: 75px;
+        border:2px solid #715b15;
+        border-radius: 4px;
+        padding: 0 85px 0 28px;
+        font-size: 26px;
+        color: #ffffff;
+        font-family: 'Bahnschrift';
+        margin: 0;
+        font-weight: normal;
+    }
+
+    .search_box ion-input .text-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #fff;
+        opacity: 1;
+      }
+      .search_box ion-input .text-input::-moz-placeholder { /* Firefox 19+ */
+        color: #fff;
+        opacity: 1;
+      }
+      .search_box ion-input .text-input:-ms-input-placeholder { /* IE 10+ */
+        color: #fff;
+        opacity: 1;
+      }
+      .search_box ion-input .text-input:-moz-placeholder { /* Firefox 18- */
+        color: #fff;
+        opacity: 1;
+      }
+      .search_box button{
+          position: absolute;
+          right: 35px;
+          top: 19px;
+          background: none;
+          border:0;
+          padding: 0;
+      }
+      .client_list_section{
+          margin: 0;
+          padding: 0;
+          border-top: 2px solid #d7a301;
+      }
+      .client_list_box{
+        padding: 28px 55px;
+        border-bottom: 2px solid #d7a301;
+      }
+      .client_list{
+          font-size: 32px;
+          color: #ffffff;
+          font-weight: normal;
+          font-family: 'Bahnschrift';
+          background: url(/assets/imgs/right_arrow.png) no-repeat right center;
+
+      }
+
+
+      @media(max-width:667px){
+        .search_section{
+            padding: 20px 16px;
+        }
+        .search_box ion-input .text-input{
+            height: 45px;
+            padding: 0 45px 0 15px;
+            font-size: 18px;
+        }
+       .search_box button {
+            right: 20px;
+            top: 9px;
+            width: 27px;
+      }
+      .client_list_box{
+          padding: 12px 20px;
+      }
+      .client_list{
+          font-size: 18px;
+          background-size: 12px;
+      }
+    }
+
+}

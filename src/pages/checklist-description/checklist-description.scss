@@ -1,0 +1,40 @@
+page-checklist-description {
+    .check_list_page{
+        margin: 0;
+        padding:0;
+    }
+
+    .check_list_banner{
+        box-shadow: 1px 2px 45px #0f1c42;
+        -moz-box-shadow: 1px 2px 45px #0f1c42;
+        -webkit-box-shadow: 1px 2px 45px #0f1c42;
+        float: left;
+        width: 100%;
+        border-bottom: 2px solid #8a8a8a;
+    }
+    .check_list_banner img{
+        width: 100%;
+        float: left;
+    }
+    .check_list_des{
+        float: left;
+        width: 100%;
+        padding: 40px 55px;
+    }
+    .check_list_des p{
+        color: #ffffff;
+        font-size: 18px;
+        margin: 0 0 20px 0;
+        font-family: 'Bahnschrift';
+    }
+
+    @media(max-width:667px){
+        .check_list_des{
+            padding: 25px 16px;
+        }
+        .check_list_des p{
+            font-size: 16px;
+        }
+    }
+
+}

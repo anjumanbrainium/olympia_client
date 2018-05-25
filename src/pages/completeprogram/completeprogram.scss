@@ -1,0 +1,190 @@
+page-completeprogram {
+    .complete_program_page{
+        margin: 0;
+        padding: 0;
+    }
+    .exercise_label{
+        padding: 12px 60px;
+        border-bottom: 2px solid #8a8a8a;
+        font-size: 30px;
+        color: #fff;
+        font-weight: normal;
+        font-family: 'Bahnschrift';
+    }
+    .select_sets{
+        padding: 25px 70px;
+        border-bottom: 2px solid #8a8a8a;
+        float: left;
+        width:100%;
+    }
+    .exercise_select{
+        position: relative;
+    }
+    .exercise_select ion-select{
+        width:100%;
+        margin: 0;
+        max-width: 100%;
+        padding: 0;
+        height: 50px;
+        border: 2px solid #6d6f74;
+        border-radius: 4px;
+    }
+    .exercise_select ion-select .select-text{
+        font-size: 24px;
+        color: #ffffff;
+        font-weight: normal;
+        font-family: 'Bahnschrift';
+        padding: 8px 25px;
+
+    }
+    .exercise_select ion-select .select-icon{
+        width:27px;
+        height: 12px;
+        top: 17px;
+        right: 18px;
+        background: url(/assets/imgs/down-arrow.png) no-repeat center center;
+    }
+    .exercise_select ion-select .select-icon .select-icon-inner{
+        display: none;
+    }
+    .select_sets_label{
+        margin-top: 20px;
+    }
+    .select_sets_label .set{
+        width: 28%;
+        margin-right: 8%;
+        float: left;
+        
+    }
+    .select_sets_label .set:last-child{
+        margin-right:0;
+    }
+    .set_select_box{
+        float: left;
+        width:100%;
+        margin-top: 15px;
+    }
+    .select_sets_label .set h3{
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: normal;
+        font-family: 'Bahnschrift';
+        border-bottom: 1px solid #fff;
+        padding-bottom: 5px;
+        margin: 0;
+
+    }
+    .set_two_block{
+        float: left;
+        width:42%;
+        position: relative;
+        margin-right: 16%;
+    }
+    .set_two_block:last-child{
+        margin-right: 0;
+    }
+
+    .set_two_block ion-select{
+        width:100%;
+        margin: 0;
+        max-width: 100%;
+        padding: 0;
+        height: 40px;
+        border: 1px solid #a2a2a4;
+        border-radius: 4px;
+    }
+    .set_two_block ion-select .select-text{
+        font-size: 22px;
+        color: #ffffff;
+        font-weight: normal;
+        font-family: 'Bahnschrift';
+        padding: 6px 10px;
+        text-transform: uppercase;
+
+    }
+    .set_two_block ion-select .select-icon{
+        width:15px;
+        height: 7px;
+        top: 16px;
+        right: 10px;
+        background: url(/assets/imgs/down-arrow-small.png) no-repeat center center;
+    }
+    .set_two_block ion-select .select-icon .select-icon-inner{
+        display: none;
+    }
+    .save_button{
+        text-align: center;
+        margin-top: 100px;
+        float: left;
+        width: 100%;
+    }
+    .save_button .save_btn{
+        min-width:300px;
+        background: #d7a301;
+        padding: 20px;
+        font-size: 28px;
+        color: #ffffff;
+        font-family: 'Bahnschrift';
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        text-transform: uppercase;
+    }
+
+
+    @media(max-width:667px){
+        .select_sets{
+            padding: 15px 16px;
+        }
+        .exercise_label{
+            padding: 10px 16px;
+            font-size: 18px;
+        }
+        .select_sets_label .set{
+            width: 32%;
+            margin-right: 2%;
+        }
+        .set_two_block{
+            width: 47%;
+            margin-right: 6%;
+        }
+        .set_two_block ion-select .select-icon{
+            right: 4px;
+            background-size: 10px;
+            top: 11px;
+        }
+        .set_two_block ion-select .select-text{
+            font-size: 16px;
+            padding: 6px;
+        }
+        .set_two_block ion-select{
+            height: 30px;
+        }
+        .select_sets_label .set h3{
+            font-size: 16px;
+        }
+        .exercise_select ion-select{
+            height: 40px;
+        }
+        .exercise_select ion-select .select-icon{
+            top: 13px;
+            right: 11px;
+            background-size: 15px;
+        }
+        .save_button{
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .save_button .save_btn {
+            min-width: 200px;
+            padding: 12px;
+            font-size: 18px;
+        }
+        .exercise_select ion-select .select-text{
+            font-size: 18px;
+            padding: 8px 15px;
+        }
+    }
+
+}
